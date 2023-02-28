@@ -1,0 +1,64 @@
+@media only screen and (max-width: 767px) {
+    .form-choose-type-user {
+        width: 100% !important;
+    }
+
+    .btn-psychologist,
+    .btn-patient {
+        width: 100% !important;
+    }
+} 
+
+.main-psychologist h2,
+.main-patient h2 {
+    color: #50bfb8;
+}
+
+.main-psychologist textarea,
+.main-patient textarea {
+    height: 200px;
+}
+
+.form-choose-type-user {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.form-choose-type-user h2 {
+    color: #50bfb8;
+}
+
+.form-patient {
+    display: none;
+}
+
+.btn-psychologist,
+.btn-patient {
+    height: 50px;
+    width: 50%;
+    opacity: 1;
+    box-shadow: none !important;
+    color: #50bfb8 !important;
+    background: rgba(255,255,255,0);
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #50bfb8;
+}
+
+.btn-psychologist:hover,
+.btn-patient:hover,
+.btn-psychologist:active,
+.btn-patient:active {
+    opacity: 1;
+    box-shadow: none;
+    color: #ffffff !important;
+    background: #50bfb8 !important;
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #50bfb8 !important;
+}
+

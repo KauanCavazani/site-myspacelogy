@@ -1,0 +1,148 @@
+@media only screen and (max-width: 991px) {
+    .colum-image {
+        display: none;
+    }
+
+    .form-area {
+        align-items: start !important;
+    }
+
+    .container-fluid {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .form-area {
+        align-items: center !important;
+        margin-top: 45px !important;
+        margin-bottom: 61px !important;
+    }
+}
+
+
+/* 
+------------- start navbar -------------
+*/
+nav {
+    position: static;
+    width: 100%;
+    padding: 0;
+    display: block;
+    box-shadow: 0px 0px 14px 1px #50bfb8;
+}
+
+nav button .navbar-toggler {
+    border-style: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+nav .container .navbar-collapse {
+    justify-content: right !important;
+}
+
+nav .container .navbar-collapse .btn-register {
+    opacity: 1;
+    box-shadow: none !important;
+    color: #50bfb8 !important;
+    background: rgba(255,255,255,0);
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #50bfb8;
+}
+
+nav .btn-register:hover {
+    background-color: #eaf8f7 !important;
+}
+
+nav .container .navbar-collapse .btn-white {
+    opacity: 1;
+    box-shadow: none;
+    color: #ffffff;
+    background: #50bfb8;
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #50bfb8;
+}
+
+nav .btn-white:hover {
+    background-color: #3cb4ac !important;
+    opacity: 1;
+}
+/* 
+------------- end navbar -------------
+*/
+
+/* 
+------------- start form -------------
+*/
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.divider p {
+    color: #50bfb8;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+form p a {
+    color: #50bfb8 !important;
+}
+
+form button {
+    padding-left: 2.5rem !important; 
+    padding-right: 2.5rem !important;
+    background-color: #50bfb8 !important;
+    border: #50bfb8 !important;
+}
+
+form button:hover {
+    background-color: #3db1a9 !important;
+}
+
+/* 
+------------- end form -------------
+*/
+
+/*
+------------- start footer -------------
+*/
+footer {
+    background: linear-gradient(1deg, #3db1a9 1%, #88cfcc 98%);
+}
+
+footer .col-lg-3 p {
+    padding-left: 6px;
+    color: #fff !important;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+/*
+------------- end footer -------------
+*/
+
+

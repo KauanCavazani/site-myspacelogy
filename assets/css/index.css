@@ -1,0 +1,238 @@
+@media only screen and (max-width: 1199px) {
+    .header-home .banner .row {
+        margin-top: 89px;
+    }
+}
+
+/*
+------------ start header --------------
+*/
+.header-home {
+    background: linear-gradient(1deg, #a2d6d3 1%, #50bfb8 98%);
+    padding: 0 !important;
+}
+
+/* 
+------------- start navbar -------------
+*/
+nav {
+    position: fixed !important;
+    width: 100%;
+    padding: 0;
+    display: block
+}
+
+.navbar-fixed {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    display: block;
+    box-shadow: 0px 0px 14px 1px #50bfb8;
+}
+
+nav button .navbar-toggler {
+    border-style: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar-toggler-icon-blue {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(80,191,18, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav .container .navbar-collapse {
+    justify-content: right !important;
+}
+
+nav .container .navbar-collapse .btn-register {
+    opacity: 1;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    background: rgba(255,255,255,0);
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+nav .btn-register:hover {
+    background-color: #3cb4ac !important;
+}
+
+nav .container .navbar-collapse .btn-white {
+    opacity: 1;
+    box-shadow: none;
+    color: #50bfb8;
+    background: #ffffff;
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+nav .btn-white:hover,
+.colum-text a:hover  {
+    background-color: #eaf8f7 !important;
+    opacity: 1;
+    color: #50bfb8;
+}
+
+.btn-transparent {
+    opacity: 1;
+    box-shadow: none !important;
+    color: #50bfb8 !important;
+    background: rgba(255,255,255,0);
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #50bfb8;
+}
+
+.btn-transparent:hover {
+    background-color: #eaf8f7 !important;
+    border: 1px solid #50bfb8;
+}
+
+.btn-blue {
+    opacity: 1;
+    box-shadow: none;
+    color: #ffffff;
+    background: #50bfb8;
+    font-weight: bold;
+    margin: 7px;
+    border-style: solid;
+    border-color: #50bfb8;
+}
+
+.btn-blue:hover {
+    background-color: #3cb4ac !important;
+    opacity: 1;
+    border: 1px solid #3cb4ac;
+}
+/* 
+------------- end navbar -------------
+*/
+
+/*
+------------- start banner -------------
+*/
+.header-home .banner .colum-text {
+    max-width: 350px;
+    animation: none;
+    transition: 0s;
+}
+
+.colum-text a {
+    background: #ffffff;
+    color: #50bfb8;
+    font-weight: bold;
+    text-shadow: none;
+    border: none;
+}
+
+.banner .colum-text .my-3 {
+    text-shadow: none;
+}
+
+.banner img {
+    min-height: 300px;
+}
+/*
+------------- end banner -------------
+------------- end header -------------
+*/
+
+/*
+------------- start info section -------------
+*/
+.info-section .info-icon {
+    background: #50bfb8;
+}
+
+.info-section h4,
+.info-section a {
+    color: #50bfb8;
+}
+
+.info-section hr {
+    z-index: -1;
+    position: relative;
+}
+/*
+------------- end info section -------------
+*/
+
+/*
+------------- start assessment section -------------
+*/
+.assessment-section h2,
+.creators-section h2 {
+    color: #50bfb8;
+    font-weight: bold;
+}
+
+.assessment-section .assessment-area {
+    margin-bottom: 52px;
+}
+
+.assessment-area .assessment .name {
+    color: #50bfb8 !important;
+}
+/*
+------------- end assessment section -------------
+*/
+
+/*
+------------- start creators section -------------
+*/
+.creators-section {
+    margin-bottom: 44px;
+}
+
+.creators-section .creators-area {
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.creators-area h5  {
+    color: #50bfb8 !important;
+}
+
+.bi-github {
+    color: #000;
+}
+/*
+------------- end creators section -------------
+*/
+
+/*
+------------- start footer -------------
+*/
+footer {
+    background: linear-gradient(1deg, #3db1a9 1%, #88cfcc 98%);
+}
+
+footer .col-lg-3 p {
+    padding-left: 6px;
+    color: #fff !important;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+/*
+------------- end footer -------------
+*/
+
+
+
+
+
+

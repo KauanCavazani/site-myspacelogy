@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MySpaceLogy - Cadastro</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/imports/registerTemplate.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container">
+            <a href="./index.html">
+                <img src="assets/img/logoAzul.png" width="200" height="44">
+            </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <button class="btn btn-primary btn-register" id="btnRegister" type="button">Cadastrar</button>
+                <button class="btn btn-primary btn-white" id="btnLogin" type="button">Entrar</button>
+            </div>
+        </div>
+    </nav>
+    <section class="vh-100">
+        <div class="container">
+            <div class="card">
+                <div class="form-choose-type-user" id="formChooseTypeUser">
+                    <div class="row mb-5">
+                        <div class="col-md-8 col-xl-6 text-center mx-auto">
+                            <h2>Cadastrar-se como</h2>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-psychologist" id="btnPsychologist" type="button">Psicólogo</button>
+                    <div class="divider d-flex align-items-center my-4">
+                        <p class="text-center fw-bold mx-3 mb-0">ou</p>
+                    </div>
+                    <button class="btn btn-primary btn-patient" id="btnPatient" type="button">Paciente</button>
+                </div>
+                <div class="form-psychologist form" id="formPsychologist">
+                    <div class="left-side">
+                        <div class="left-heading">
+                            <h3>Cadastro - Psicólogo</h3>
+                        </div>
+                        <div class="steps-content">
+                            <h3>Etapa <span class="step-number-psychologist">1</span></h3>
+                        </div>
+                        <ul class="progress-bar-psychologist">
+                            <li class="active">Informações pessoais</li>
+                            <li>Endereço</li>
+                            <li>Educação</li>
+                            <li>Sobre</li>
+                            <li>Foto de perfil</li>
+                        </ul>
+                    </div>
+                    <div class="right-side">
+                        <div class="personal-info-form main-psychologist active">
+                            <div class="text">
+                                <h2>Suas informações pessoais</h2>
+                                <p>Insira suas informações pessoais.</p>
+                            </div>
+                            <div class="input-text">
+                                <div class="form-outline input-div">
+                                    <label class="form-label" for="form3Example3">Nome completo</label>
+                                    <input type="text" class="form-control" placeholder="Escreva aqui seu nome completo..." />
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="form-outline input-div">
+                                    <label class="form-label">Data de nascimento</label>
+                                    <input class="form-control" type="text" name="date" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Genêro</label>
+                                    <select class="form-control">
+                                        <option>Selecione seu genêro</option>
+                                        <option>Masculino</option>
+                                        <option>Feminino</option>
+                                        <option>Outros</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Email</label>
+                                    <input class="form-control" type="text" placeholder="Ex: nome@email.com">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">CPF</label>
+                                    <input class="form-control" type="text" placeholder="000.000.000-00">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Número de telefone</label>
+                                    <input class="form-control" type="text" placeholder="(00) 0 0000-0000">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Senha</label>
+                                    <input class="form-control" type="password" placeholder="************">
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <button class="btn btn-primary next-button-psychologist">Avançar</button>
+                            </div>
+                        </div>
+                        <div class="main-psychologist">
+                            <div class="text">
+                                <h2>Endereço</h2>
+                                <p>Informe sua localidade.</p>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">CEP</label>
+                                    <input class="form-control" type="text" placeholder="00000-000">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Estado</label>
+                                    <select class="form-control">
+                                        <option>SP</option>
+                                        <option>BCA</option>
+                                        <option>B-TECH</option>
+                                        <option>BA</option>
+                                        <option>B-COM</option>
+                                        <option>B-SC</option>
+                                        <option>MBA</option>
+                                        <option>MCA</option>
+                                        <option>M-COM</option>
+                                        <option>M-TECH</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Cidade</label>
+                                    <input class="form-control" type="text" placeholder="Ex: São Paulo">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Bairro</label>
+                                    <input class="form-control" type="text" placeholder="Ex: Vila Madalena">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Rua</label>
+                                    <input class="form-control" type="text" placeholder="Ex: Rua dos Alpes">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Número</label>
+                                    <input class="form-control" type="text"  placeholder="Ex: 123">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Complemento</label>
+                                    <input class="form-control" type="text" placeholder="Ex: Bloco 3">
+                                </div>
+                            </div>
+                            <div class="buttons button_space">
+                                <button class="back-button-psychologist">Voltar</button>
+                                <button class="next-button-psychologist">Avançar</button>
+                            </div>
+                        </div>
+                        <div class="main-psychologist">
+                            <div class="text">
+                                <h2>Educação</h2>
+                                <p>Informe sobre sua formação acadêmica.</p>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Nome da universidade</label>
+                                    <input class="form-control" type="text" placeholder="Ex: USP">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Ano de conclusão</label>
+                                    <input class="form-control" type="text" placeholder="Ex: 2022">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Grau acadêmico</label>
+                                    <select class="form-control">
+                                        <option>Selecione um grau acadêmico</option>
+                                        <option>Graduação</option>
+                                        <option>Pós graduação</option>
+                                        <option>Mestrado</option>
+                                        <option>Doutorado</option>
+                                    </select>
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">CRP</label>
+                                    <input class="form-control" type="text" placeholder="00/00000">
+                                </div>
+                            </div>
+                            <div class="buttons button_space">
+                                <button class="back-button-psychologist">Voltar</button>
+                                <button class="next-button-psychologist">Avançar</button>
+                            </div>
+                        </div>
+
+                        <div class="main-psychologist">
+                            <div class="text">
+                                <h2>Sobre</h2>
+                                <p>Fale um pouco sobre você.</p>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <textarea class="form-control" placeholder="Informe sobre você..."></textarea>
+                                </div>
+                            </div>
+                            <div class="buttons button_space">
+                                <button class="back-button-psychologist">Voltar</button>
+                                <button class="next-button-psychologist">Avançar</button>
+                            </div>
+                        </div>
+
+                        <div class="main-psychologist">
+                            <div class="text">
+                                <h2>Foto de perfil</h2>
+                                <p>Faça um upload da sua foto de perfil.</p>
+                            </div>
+                            <div class="user-card">
+                                <span></span>
+                                <div class="circle">
+                                    <span>
+                                        <img src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                                    </span>
+                                </div>
+                                <div class="user-name">
+                                    <h3>Peter Hawkins</h3>
+                                    <div class="detail">
+                                        <p>CRP: 134213412</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons button_space">
+                                <button class="back-button-psychologist">Voltar</button>
+                                <button class="submit-button">Enviar</button>
+                            </div>
+                        </div>
+                        <div class="main-psychologist">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                                <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                            </svg>
+
+                            <div class="text congrats">
+                                <h2>Congratulations!</h2>
+                                <p>Thanks Mr./Mrs. <span class="shown-name"></span> your information have been submitted
+                                    successfully for the future reference we will contact you soon.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-patient form" id="formPatient">
+                    <div class="left-side">
+                        <div class="left-heading">
+                            <h3>Cadastro - Paciente</h3>
+                        </div>
+                        <div class="steps-content">
+                            <h3>Etapa <span class="step-number-patient">1</span></h3>
+                        </div>
+                        <ul class="progress-bar-patient">
+                            <li class="active">Informações pessoais</li>
+                            <li>Endereço</li>
+                            <li>Foto de perfil</li>
+                        </ul>
+                    </div>
+                    <div class="right-side">
+                        <div class="personal-info-form main-patient active">
+                            <div class="text">
+                                <h2>Suas informações pessoais</h2>
+                                <p>Insira suas informações pessoais.</p>
+                            </div>
+                            <div class="input-text">
+                                <div class="form-outline input-div">
+                                    <label class="form-label" for="form3Example3">Nome completo</label>
+                                    <input type="text" class="form-control" placeholder="Escreva aqui seu nome completo..." />
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="form-outline input-div">
+                                    <label class="form-label">Data de nascimento</label>
+                                    <input class="form-control" type="text" name="date" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Genêro</label>
+                                    <select class="form-control">
+                                        <option>Selecione seu genêro</option>
+                                        <option>Masculino</option>
+                                        <option>Feminino</option>
+                                        <option>Outros</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Email</label>
+                                    <input class="form-control" type="text" placeholder="Ex: nome@email.com">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">CPF</label>
+                                    <input class="form-control" type="text" placeholder="000.000.000-00">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Número de telefone</label>
+                                    <input class="form-control" type="text" placeholder="(00) 0 0000-0000">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Senha</label>
+                                    <input class="form-control" type="password" placeholder="************">
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <button class="btn btn-primary next-button-patient">Avançar</button>
+                            </div>
+                        </div>
+
+                        <div class="main-patient">
+                            <div class="text">
+                                <h2>Endereço</h2>
+                                <p>Informe sua localidade.</p>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">CEP</label>
+                                    <input class="form-control" type="text" placeholder="00000-000">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Estado</label>
+                                    <select class="form-control">
+                                        <option>SP</option>
+                                        <option>BCA</option>
+                                        <option>B-TECH</option>
+                                        <option>BA</option>
+                                        <option>B-COM</option>
+                                        <option>B-SC</option>
+                                        <option>MBA</option>
+                                        <option>MCA</option>
+                                        <option>M-COM</option>
+                                        <option>M-TECH</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Cidade</label>
+                                    <input class="form-control" type="text" placeholder="Ex: São Paulo">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Bairro</label>
+                                    <input class="form-control" type="text" placeholder="Ex: Vila Madalena">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Rua</label>
+                                    <input class="form-control" type="text" placeholder="Ex: Rua dos Alpes">
+                                </div>
+                            </div>
+                            <div class="input-text">
+                                <div class="input-div">
+                                    <label class="form-label">Número</label>
+                                    <input class="form-control" type="text"  placeholder="Ex: 123">
+                                </div>
+                                <div class="input-div">
+                                    <label class="form-label">Complemento</label>
+                                    <input class="form-control" type="text" placeholder="Ex: Bloco 3">
+                                </div>
+                            </div>
+                            <div class="buttons button_space">
+                                <button class="back-button-patient">Voltar</button>
+                                <button class="next-button-patient">Avançar</button>
+                            </div>
+                        </div>
+
+                        <div class="main-patient">
+                            <div class="text">
+                                <h2>Foto de perfil</h2>
+                                <p>Faça um upload da sua foto de perfil.</p>
+                            </div>
+                            <div class="user-card">
+                                <span></span>
+                                <div class="circle">
+                                    <span>
+                                        <img src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                                    </span>
+                                </div>
+                                <div class="user-name">
+                                    <h3>Peter Hawkins</h3>
+                                </div>
+                            </div>
+                            <div class="buttons button_space">
+                                <button class="back-button-patient">Voltar</button>
+                                <button class="submit-button">Enviar</button>
+                            </div>
+                        </div>
+                        <div class="main-patient">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                                <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                            </svg>
+
+                            <div class="text congrats">
+                                <h2>Congratulations!</h2>
+                                <p>Thanks Mr./Mrs. <span class="shown-name"></span> your information have been submitted
+                                    successfully for the future reference we will contact you soon.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-white">
+            <div class="container py-4 py-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
+                        <h3 class="fs-6 text-white">Mapa do site</h3>
+                        <ul class="list-unstyled">
+                            <li><a class="link-light" href="./register.html">Cadastrar</a></li>
+                            <li><a class="link-light" href="./login.html">Entrar</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
+                        <h3 class="fs-6 text-white">Sobre</h3>
+                        <ul class="list-unstyled">
+                            <li><a class="link-light" href="#">Empresa</a></li>
+                            <li><a class="link-light" href="#">Criadores</a></li>
+                            <li><a class="link-light" href="#">Legado</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
+                        <h3 class="fs-6 text-white">Suporte</h3>
+                        <ul class="list-unstyled">
+                            <li><a class="link-light" href="#">FAQ</a></li>
+                            <li><a class="link-light" href="#">Telefones</a></li>
+                            <li><a class="link-light" href="#">Endereço</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last">
+                        <div class="fw-bold d-flex align-items-center mb-2">
+                            <img src="assets/img/logoBrancoSemFundo.png" width="155" height="35">
+                        </div>
+                        <p class="text-muted">
+                            Sem eleifend donec molestie, integer quisque orci aliquam.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center pt-3">
+                    <p class="mb-0">Copyright © 2023 MySpaceLogy</p>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!--  jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    
+    <script src="./assets/js/imports/register.js"></script>
+    <script src="./assets/js/imports/datePicker.js"></script>
+</body>
+
+</html>
+<script>
+
+    var btnRegister = document.getElementById('btnRegister');
+    btnRegister.addEventListener("click", () => {
+        window.location = "./register.html";
+    })
+
+    var btnlogin = document.getElementById('btnLogin');
+    btnlogin.addEventListener("click", () => {
+        window.location = "./login.html";
+    })
+
+    var btnPsychologist = document.getElementById('btnPsychologist');
+    btnPsychologist.addEventListener("click", () => {
+        document.getElementById("formChooseTypeUser").style.display = 'none';
+        document.getElementById("formPsychologist").style.display = 'flex';
+    })
+
+    var btnPatient = document.getElementById('btnPatient');
+    btnPatient.addEventListener("click", () => {
+        document.getElementById("formChooseTypeUser").style.display = 'none';
+        document.getElementById("formPatient").style.display = 'flex';
+    })
+
+</script>
